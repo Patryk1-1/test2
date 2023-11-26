@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Patryk Kamiński 1tp</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #282c35;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #header,
+        #footer {
+            width: 100%;
+            background-color: #1a1d23;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .kwadrat,
+        .kwadrat2 {
+            width: 164px;
+            height: 644px;
+            background-color: #1a1d23;
+            margin: 0 10px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .kwadrat2 {
+            width: 644px;
+        }
+
+        .info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .info a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+
+        .info a:hover {
+            text-decoration: underline;
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <div id="header">
+        Avengers
+    </div>
+
+    <div id="content">
+        <div class="kwadrat" id="movie1">
+            <div class="info">
+                <h2>Linki:</h2>
+                <br>
+                <a href="https://www.filmweb.pl/film/Avengers-2012-371515" target="_blank">Avengers (2012)</a>
+                <br><br>
+                <a href="https://www.filmweb.pl/film/Avengers%3A+Czas+Ultrona-2015-637247" target="_blank">Avengers: Czas Ultrona (2015)</a>
+            </div>
+        </div>
+        <div class="kwadrat2" id="movie2">
+            <div class="info">
+                <h2>Avengers (2012)</h2>
+                <p>Grupa superbohaterów, na czele z Thorem, Iron Manem i Hulkiem, łączy siły, by obronić Ziemię przed inwazją kosmitów.</p>
+                <a href="https://www.filmweb.pl/film/Avengers-2012-371515" target="_blank">Pokaż więcej...</a>
+                <br><br><br>
+                <h2>Avengers: Czas Ultrona (2015)</h2>
+                <p>Światu zagraża robot Ultron, który pragnie przejąć władzę. Superbohaterowie postanawiają temu zapobiec, stawiając czoło groźnemu najeźdźcy.</p>
+                <a href="https://www.filmweb.pl/film/Avengers%3A+Czas+Ultrona-2015-637247" target="_blank">Pokaż więcej...</a>
+            </div>
+        </div>
+        <div class="kwadrat" id="movie3">
+            <div class="info">
+                <img src="reklama.jpg" alt="reklama" width="164" height="644">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <br>
+    </div>
+</body>
+
+</html>
